@@ -1,0 +1,124 @@
+.productHeader {
+    text-align: center;
+    align-items: center;
+}
+
+#productHeaderH1 {
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-top: 3%;
+    display: inline-block;
+    padding-bottom: 0.25rem;
+    position: relative;
+}
+
+#productHeaderH1::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    background-color: rgb(223, 66, 9);
+}
+
+#productImg1 {
+    height: 250px;
+    width: 250px;
+    transition: ease-in-out 0.5s;
+}
+
+#productImg2 {
+    height: 250px;
+    width: 250px;
+    transition: ease-in-out 0.5s;
+}
+
+#productImg3 {
+    height: 250px;
+    width: 250px;
+    transition: ease-in-out 0.5s;
+}
+
+#productImg4 {
+    height: 250px;
+    width: 250px;
+    transition: ease-in-out 0.5s;
+}
+
+#productImg5 {
+    height: 250px;
+    width: 250px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    transition: ease-in-out 0.5s;
+}
+
+#productImg6 {
+    height: 250px;
+    width: 250px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    transition: ease-in-out 0.5s;
+}
+
+#productImg7 {
+    height: 250px;
+    width: 250px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    transition: ease-in-out 0.5s;
+}
+
+#productImg8 {
+    height: 250px;
+    width: 250px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    transition: ease-in-out 0.5s;
+}
+
+#productImg1:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#productImg2:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#productImg3:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#productImg4:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#productImg5:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#productImg6:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#productImg7:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#productImg8:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.container {
+    margin-top: 5%;
+}
